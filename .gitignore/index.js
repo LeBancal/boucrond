@@ -4,7 +4,6 @@ const bot = new Discord.Client()
 bot.on('ready', function(){
 
     bot.user.setActivity('Pong')
-    .catch(console.error)
 })
 bot.on('message', function (message){
     if (message.content === '!ping'){
