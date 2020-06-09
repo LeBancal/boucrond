@@ -3,11 +3,11 @@ const bot = new Discord.Client()
 
 bot.on('ready', function(){
 
-    bot.user.setActivity('Pong')
+    bot.user.setActivity('#084')
 })
 bot.on('message', function (message){
-    if (message.content === '!ping'){
-        message.channel.send('pong')
+    if (message.content === '!doduo'){
+        message.channel.send('#084')
     }
 })
 
